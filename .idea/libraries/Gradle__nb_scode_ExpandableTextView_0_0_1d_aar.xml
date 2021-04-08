@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: nb.scode:ExpandableTextView:0.0.1d@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../SDK/caches/transforms-2/files-2.1/bd36b7608ad9438719cafb92496f54c2/jetified-ExpandableTextView-0.0.1d/res" />
+      <root url="file://$PROJECT_DIR$/../../../SDK/caches/transforms-2/files-2.1/bd36b7608ad9438719cafb92496f54c2/jetified-ExpandableTextView-0.0.1d/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../SDK/caches/transforms-2/files-2.1/bd36b7608ad9438719cafb92496f54c2/jetified-ExpandableTextView-0.0.1d/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../SDK/caches/modules-2/files-2.1/nb.scode/ExpandableTextView/0.0.1d/231e2e5762d59b27c284289af70beeb1d0a27ca4/ExpandableTextView-0.0.1d-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../SDK/caches/modules-2/files-2.1/nb.scode/ExpandableTextView/0.0.1d/d76e4c2e35e5b095134f8bbde8e892c0c67eb17d/ExpandableTextView-0.0.1d-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

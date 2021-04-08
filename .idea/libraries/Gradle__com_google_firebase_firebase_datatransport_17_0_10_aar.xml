@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-datatransport:17.0.10@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../SDK/caches/transforms-2/files-2.1/36c526acf64d6d9696a35897ef9a03d6/jetified-firebase-datatransport-17.0.10/res" />
+      <root url="file://$PROJECT_DIR$/../../../SDK/caches/transforms-2/files-2.1/5e806462e54041662b2d037a859bcb50/jetified-firebase-datatransport-17.0.10/res" />
+      <root url="file://$PROJECT_DIR$/../../../SDK/caches/transforms-2/files-2.1/d5a07d48dc9644b7d6f3857968fed192/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../SDK/caches/transforms-2/files-2.1/d5a07d48dc9644b7d6f3857968fed192/jetified-firebase-datatransport-17.0.10/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../SDK/caches/transforms-2/files-2.1/d5a07d48dc9644b7d6f3857968fed192/jetified-firebase-datatransport-17.0.10/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../SDK/caches/modules-2/files-2.1/com.google.firebase/firebase-datatransport/17.0.10/de83e2d6f9c9315c359babdcf03dec170fd6980b/firebase-datatransport-17.0.10-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../SDK/caches/modules-2/files-2.1/com.google.firebase/firebase-datatransport/17.0.10/fd4eac635921dc6f0555efd23564313a20b97120/firebase-datatransport-17.0.10-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

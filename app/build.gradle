@@ -1,0 +1,78 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "29.0.3"
+
+    defaultConfig {
+        applicationId "com.techpassmaster.simpleinstagramcloneapp"
+        minSdkVersion 18
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.3.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.vectordrawable:vectordrawable:1.1.0'
+    implementation 'androidx.navigation:navigation-fragment:2.3.5'
+    implementation 'androidx.navigation:navigation-ui:2.3.5'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+
+    //   Firebase Auth
+    implementation 'com.google.firebase:firebase-auth:19.3.0'  // no need to update, it's show error (TaskExecutors.MAIN_THREAD)
+    implementation 'com.google.firebase:firebase-core:18.0.1'
+    implementation 'com.google.android.gms:play-services-auth:19.0.0'
+
+    //   Firebase Realtime Database
+    implementation 'com.google.firebase:firebase-database:19.6.0'
+
+    //   Firebase Analytics and crash
+    // Add the Firebase Crashlytics SDK.
+    implementation 'com.google.firebase:firebase-crashlytics:17.4.1'
+
+    // Recommended: Add the Google Analytics SDK.
+    implementation 'com.google.firebase:firebase-analytics:18.0.2'
+
+    // Add the Firebase Crashlytics NDK dependency.
+    implementation 'com.google.firebase:firebase-crashlytics-ndk:17.4.1'
+
+    implementation 'com.google.firebase:firebase-storage:19.2.1'
+    implementation 'com.google.firebase:firebase-messaging:21.0.1'
+
+    //    AutoSlider
+    implementation 'com.github.smarteist:autoimageslider:1.3.2'
+
+    //    Glide for Image
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+
+    //    Image Cropper
+    api 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
+
+    //    Circle ImageView
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    //    Expandable TextView
+    implementation 'nb.scode:ExpandableTextView:0.0.1d'
+
+}
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'

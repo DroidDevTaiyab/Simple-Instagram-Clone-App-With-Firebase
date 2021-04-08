@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Simple Instagram Clone App</string>
+    <string name="title_home">Home</string>
+    <string name="title_post">Add Post</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_signup">Signup</string>
+    <string name="title_login">Login</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
